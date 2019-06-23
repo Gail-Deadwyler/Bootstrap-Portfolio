@@ -19,6 +19,7 @@ body {
     max-width: 960px;
     margin: 0 auto;
     clear: both;
+    /* margin: 10px; */
   }
   
   h1,
@@ -45,6 +46,7 @@ body {
     font-size: 30px;
     line-height: 49px;
     border-bottom: 3px solid #dddddd;
+    margin-top: 10px;
   }
   
   h2,
@@ -81,7 +83,8 @@ body {
   
   nav {
     float: right;
-    margin-top: 25px;
+ 
+    /* margin-top: 25px; */
   }
 
   nav ul {
@@ -107,8 +110,7 @@ body {
   footer {
     padding: 30px 0;
     clear: both;
-    font-size: 12px;
-    color: #ffffff;
+    font-size: 12px;    
     color: #cccccc;
     text-align: center;
     background: #666666;
