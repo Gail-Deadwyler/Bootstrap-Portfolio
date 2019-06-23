@@ -83,6 +83,10 @@ body {
     float: right;
     margin-top: 25px;
   }
+
+  nav ul {
+    margin-left: 50%%;
+  }
   
   nav a {
     display: inline-block;
@@ -215,6 +219,7 @@ body {
     cursor: pointer;
     background: #4aaaa5;
     border: 0 none;
+    margin: 40px;
   }
   
  
