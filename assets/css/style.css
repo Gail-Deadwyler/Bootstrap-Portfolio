@@ -156,8 +156,7 @@ body {
     opacity: 0.8;
   }
   
-  .work h3 {
-    position: absolute;
+  .work h3 {   
     bottom: 20px;
     width: 100%;
     padding: 15px;
@@ -218,57 +217,4 @@ body {
     border: 0 none;
   }
   
-  /* My media queries */
-
-  /* Screen size - max width: 980px */
-  @media screen and (max-width: 980px) {
-  
-    /* .container {
-      background-color: aqua;      
-    } */
-
-    #main-container {
-        /* background-color: black; */
-        overflow: auto;
-        width: 80%;
-    }
-
-    nav {
-        margin-right: 20px;
-    }   
-  
-  } 
-  
-  /* Screen size - max width: 768px */
-  @media screen and (max-width: 768px) {
-  
-    /* .container {
-      background-color: yellowgreen;  
-    }  */
-    
-    #main-container {    
-        margin-top: 5px; 
-        width: 85%;
-        /* padding: 40px;        */
-    }
-  } 
-  
-  /* Screen size - max width: 640px */
-  @media screen and (max-width: 640px) {
-  
-    .container {
-        /* background-color: red; */
-        width: 64%;
-        margin: 0 auto;
-    }
-    #masthead {
-        position: static;
-    }
-
-    #main-container {    
-        margin-top: 5px; 
-        width: 85%;
-        padding: 20px;       
-    }
  
-}
